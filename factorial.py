@@ -12,4 +12,4 @@ def factorial_num(x):
     except:
         return(print("Please input only numbers."))
     return(result)
-#print(factorial_num(input("Enter the number you would like to get's factorial: ")))
+print(factorial_num(input("Enter the number you would like to get's factorial: ")))

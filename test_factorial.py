@@ -3,7 +3,7 @@ import factorial
 
 class testfact(unittest.TestCase):
     def test_fact(self):
-        result = factorial.factorial_num((input("Enter the number you would like to get's factorial: ")))
+        result = factorial.factorial_num(4)
 
         self.assertEqual(result,24)
 
